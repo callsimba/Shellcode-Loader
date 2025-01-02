@@ -16,7 +16,7 @@ public class Win32 {
         uint flProtect
     );
 
-    [DllImport("kernel32.dll", SetLastError = true)]
+[DllImport("kernel32.dll", SetLastError = true)]
     public static extern IntPtr CreateThread(
         IntPtr lpThreadAttributes,
         uint dwStackSize,
